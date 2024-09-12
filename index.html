@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #conteiner{
+            height:500px ;
+            border: dashed 3px red;
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            flex-direction: column;
+            
+        }
+        .item{
+            width: 100px;
+            height: 100px;
+            border: solid 3px blue;
+        }
+        .item.um{
+            background-color: purple;
+        }
+        .item.dois{
+            background-color: aqua;
+        }
+        .item.tres{
+            background-color: bisque;
+        }
+        #atividade{
+            background-color: blue;
+            height: 400px;
+        }
+    </style>
+</head>
+<body>
+    <div id="conteiner">
+        <div class="item um">item1</div>
+        <div class="item dois">item2</div>
+        <div class="item tres">item3</div>
+    </div>
+    <div id="atividade">
+        <div id="cont1"></div>
+        <div id="cont2"></div>
+
+    </div>
+</body>
+</html>
